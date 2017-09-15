@@ -39,7 +39,7 @@ namespace dankBoi
 
         private async Task MessageReceived(SocketMessage message)
         {
-            if (message.Content == "Omae wa mou shindeiru")
+            if (message.Content == "omae wa mou shindeiru")
             {
                 await message.Channel.SendMessageAsync("NANI?!");
             }
